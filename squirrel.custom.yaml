@@ -1,0 +1,104 @@
+# Squirrel custom settings
+# encoding: utf-8
+
+patch:
+  style:
+    color_scheme: macos_light
+    color_scheme_dark: macos_dark
+
+  preset_color_schemes:
+    macos_light:
+      name: "macOS 浅色"
+      font_face: "PingFangSC-Regular"
+      font_point: 16.0
+      label_font_face: "PingFangSC-Regular"
+      label_font_point: 12.0
+      comment_font_face: "PingFangSC-Regular"
+      comment_font_point: 14.0
+      candidate_list_layout: linear
+      text_orientation: horizontal
+      inline_preedit: true
+      corner_radius: 5.0
+      hilited_corner_radius: 5.0
+      border_height: 1.0
+      border_width: 1.0
+      line_spacing: 5.0
+      spacing: 10.0
+      color_space: display_p3
+      back_color: 0xFFFFFF
+      candidate_text_color: 0x434343
+      comment_text_color: 0x434343
+      label_color: 0x888888
+      hilited_candidate_back_color: 0xCF5925
+      hilited_candidate_text_color: 0xFFFFFF
+      hilited_comment_text_color: 0xFFFFFF
+      hilited_candidate_label_color: 0xFFFFFF
+      text_color: 0x3FFFFFFF
+      hilited_text_color: 0xD8FFFFFF
+
+    macos_dark:
+      name: "macOS 深色"
+      font_face: "PingFangSC-Regular"
+      font_point: 16.0
+      label_font_face: "PingFangSC-Regular"
+      label_font_point: 12.0
+      comment_font_face: "PingFangSC-Regular"
+      comment_font_point: 14.0
+      candidate_list_layout: linear
+      text_orientation: horizontal
+      inline_preedit: true
+      corner_radius: 5.0
+      hilited_corner_radius: 5.0
+      border_height: 1.0
+      border_width: 1.0
+      line_spacing: 5.0
+      spacing: 10.0
+      color_space: display_p3
+      back_color: 0x151515
+      candidate_text_color: 0xBBBBBB
+      comment_text_color: 0xBBBBBB
+      label_color: 0x777777
+      hilited_candidate_back_color: 0xCF5925
+      hilited_candidate_text_color: 0xFFFFFF
+      hilited_comment_text_color: 0xFFFFFF
+      hilited_candidate_label_color: 0xFFFFFF
+      text_color: 0x3FFFFFFF
+      hilited_text_color: 0xD8FFFFFF
+
+# 特定App默认中/英文输入
+  app_options:
+    co.zeit.hyper:
+      ascii_mode: true
+    com.alfredapp.Alfred:
+      ascii_mode: true
+    com.apple.Spotlight:
+      ascii_mode: true
+    com.apple.Terminal:
+      ascii_mode: true
+      no_inline: true
+    com.apple.dt.Xcode:
+      ascii_mode: true
+    com.google.Chrome:
+      inline: true
+    com.googlecode.iterm2:
+      ascii_mode: true
+      vim_mode: true
+    com.microsoft.VSCode:
+      ascii_mode: true
+      vim_mode: true
+    ru.keepcoder.Telegram:
+      inline: true
+    net.kovidgoyal.kitty:
+      ascii_mode: true
+      vim_mode: true
+    com.raycast.macos:
+      ascii_mode: true
+      inline: true
+    com.jetbrains.WebStorm:
+      ascii_mode: true
+      vim_mode: true
+    com.jetbrains.rubymine:
+      ascii_mode: true
+      vim_mode: true
+    dev.warp.Warp-Stable:
+      ascii_mode: true
